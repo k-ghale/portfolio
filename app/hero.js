@@ -9,10 +9,11 @@ const Hero = () => {
     <div 
     id="home"
     className="
-        w-[375px]
+        w-[428px]
         h-screen
-        bg-home
+        bg-projects
         bg-cover
+        bg-center
         lg:w-full flex flex-col justify-center items-center
     "> 
         <Image src="/1.svg" className='absolute left-80 top-4 inset-0 w-full h-full object-contain z-0' width={200} height={200} alt='myimage'/>
