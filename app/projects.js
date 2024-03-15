@@ -6,7 +6,8 @@ import Image from "next/image";
 const Projects = () => {
   return (
     <div className='
-    w-full
+    w-[428px]
+    lg:w-screen
     h-screen
     text-xl
     bg-home
@@ -34,7 +35,7 @@ const Projects = () => {
       </div>
       {/* description and date*/}
       <div className="flex flex-col items-center justify-center p-4">
-        <a className="text-[20px] cursor-pointer" href="http://www.github.com">Library System</a>
+        <a className="text-[20px] cursor-pointer" href="https://github.com/k-ghale/basic-library-system">Library System</a>
         <span className="text-[12px] text-neutral-400">16 Feb 2020</span>
         <span className="text-gray-600">_____________________</span>
       </div>
@@ -47,8 +48,8 @@ const Projects = () => {
       </div>
       {/* description and date*/}
       <div className="flex flex-col items-center justify-center p-4">
-        <a className="text-[20px] cursor-pointer" href="http://www.github.com">DOM Manupulation</a>
-        <span className="text-[12px] text-neutral-400">16 Feb 2020</span>
+        <a className="text-[20px] cursor-pointer" href="https://github.com/k-ghale/javascript-dom-manupulation">DOM Manupulation</a>
+        <span className="text-[12px] text-neutral-400">18 Feb 2020</span>
         <span className="text-gray-600">_____________________</span>
       </div>
     </div>
@@ -68,8 +69,8 @@ const Projects = () => {
       </div>
       {/* description and date*/}
       <div className="flex flex-col items-center justify-center p-4">
-        <a className="text-[20px] cursor-pointer" href="http://www.github.com">Restaurant Website</a>
-        <span className="text-[12px] text-neutral-400">16 Feb 2020</span>
+        <a className="text-[20px] cursor-pointer" href="https://github.com/k-ghale/restaurant_website_practice_project">Restaurant Website</a>
+        <span className="text-[12px] text-neutral-400">20 Feb 2020</span>
         <span className="text-gray-600">_____________________</span>
       </div>
     </div>
@@ -81,8 +82,8 @@ const Projects = () => {
       </div>
       {/* description and date*/}
       <div className="flex flex-col items-center justify-center p-4">
-        <a className="text-[20px] cursor-pointer" href="http://www.github.com">Advance JS</a>
-        <span className="text-[12px] text-neutral-400">16 Feb 2020</span>
+        <a className="text-[20px] cursor-pointer" href="https://github.com/k-ghale/advance-JS">Advance JS</a>
+        <span className="text-[12px] text-neutral-400">21 Feb 2020</span>
         <span className="text-gray-600">_____________________</span>
       </div>
     </div>
@@ -102,8 +103,8 @@ const Projects = () => {
       </div>
       {/* description and date*/}
       <div className="flex flex-col items-center justify-center p-4">
-        <a className="text-[20px] cursor-pointer" href="http://www.github.com">Portfolios</a>
-        <span className="text-[12px] text-neutral-400">16 Feb 2020</span>
+        <a className="text-[20px] cursor-pointer" href="https://github.com/k-ghale/portfolio">Portfolios</a>
+        <span className="text-[12px] text-neutral-400">22 Feb 2020</span>
         <span className="text-gray-600">_____________________</span>
       </div>
     </div>
@@ -115,13 +116,16 @@ const Projects = () => {
       </div>
       {/* description and date*/}
       <div className="flex flex-col items-center justify-center p-4">
-        <a className="text-[20px] cursor-pointer" href="http://www.github.com">php</a>
-        <span className="text-[12px] text-neutral-400">16 Feb 2020</span>
+        <a className="text-[20px] cursor-pointer" href="https://github.com/k-ghale/phpClass">php</a>
+        <span className="text-[12px] text-neutral-400">23 Feb 2020</span>
         <span className="text-gray-600">_____________________</span>
       </div>
     </div>
 
 
+    </div>
+    <div className="lg:flex lg:justify-center lg:items-center lg:w-1/2 lg:text-center">
+      <p className="text-[16px] lg:relative lg:left-80 text-center lg:p-4 lg:text-2xl lg:flex lg:justify-center lg:items-center">Explore some of my recent projects below. Each project represents a unique challenge and showcases my skills as a developer.</p>
     </div>
     </div>
     </div>

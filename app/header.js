@@ -7,7 +7,8 @@ const Header = () => {
   return (
     <nav
       className="
-     w-full
+     w-[428px]
+     lg:w-screen
      h-8
      flex
      items-center
@@ -21,6 +22,7 @@ const Header = () => {
      top-0
      z-20
      lg:text-xl
+     overflow-hidden
      "
       >
         <a href="#home" className="mr-6 hover:underline cursor-pointer">logo</a>

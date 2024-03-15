@@ -5,12 +5,13 @@ import React from 'react'
 const Aboutme = () => {
   return (
     <div className='
-    w-full
+    w-[428px]
+    lg:w-screen
     h-screen
     bg-skills
     bg-cover
     bg-center
-    '
+    overflow-hidden'
     id="aboutme">
 
           {/* AboutME content */}
@@ -38,7 +39,9 @@ const Aboutme = () => {
             mt-4
             lg-font-light lg:text-3xl
             ">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur distinctio nemo corporis, cum ipsum numquam. Est blanditiis aut cumque illo sapiente sint dolor odio! Numquam ipsum expedita perspiciatis repellat magni.</p>
+                I am passionate web developer with a strong background in front-end development. I love creating beautiful and functional websites that provide an enjoyable user experience.
+
+With 10+ years of experience in the field, I have honed my skills in HTML, CSS, JavaScript, and various front-end frameworks such as React, Vue, and Angular.</p>
         </div>
 
         {/* About me picture */}
