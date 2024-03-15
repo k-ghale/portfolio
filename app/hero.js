@@ -17,6 +17,7 @@ const Hero = () => {
         bg-projects
         bg-cover
         bg-center
+        text-center
         overflow-hidden
         lg:w-screen flex flex-col justify-center items-center
     "> 
@@ -47,7 +48,7 @@ const Hero = () => {
           font-poppins 
           pl-4 
           pr-4
-          lg:text-lg lg:w-[600px] relative z-10
+          lg:text-lg lg:w-[600px] relative z-10 text-center
           "
           >
           Discover how I blend creativity with technical expertise to craft unique solutions. Lets embark on a journey through my work together.</p>
@@ -103,12 +104,11 @@ const Hero = () => {
           </div>
           
           <div className="
-          lg:left-8 bottom-8
+          lg:bottom-8
           top-8
-          left-6
           relative z-10
           flex
-          justify-start
+          justify-center
           cursor-pointer
           
           ">

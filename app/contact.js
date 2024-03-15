@@ -27,7 +27,7 @@ const Connect = () => {
         </form>
 
 
-        <p className="font-poppins text-2xl mt-12">Feel free to reach out to us via the contact form below, and our dedicated team will get back to you as soon as possible. Alternatively, you can contact us directly via email or phone using the information provided. Your inquiries are important to us, and we strive to provide timely and helpful responses to all messages we receive.</p>
+        <p className="font-poppins text-center text-2xl mt-12">Feel free to reach out to us via the contact form below, and our dedicated team will get back to you as soon as possible. Alternatively, you can contact us directly via email or phone using the information provided. Your inquiries are important to us, and we strive to provide timely and helpful responses to all messages we receive.</p>
         
         <div className="flex flex-row gap-8 mt-16 mb-24">
             <FaLinkedin size={100} className="cursor-pointer" onClick={()=>{window.open("https://www.linkedin.com/in/kabin-ghale/","blank");}}/>
