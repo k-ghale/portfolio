@@ -41,7 +41,7 @@ const Aboutme = () => {
             ">
                 I am passionate web developer with a strong background in front-end development. I love creating beautiful and functional websites that provide an enjoyable user experience.
 
-With 10+ years of experience in the field, I have honed my skills in HTML, CSS, JavaScript, and various front-end frameworks such as React, Vue, and Angular.</p>
+With 10+ years of experience in the field, I have honed my skills in HTML, CSS, JavaScript, and various front-end frameworks such as ReactJS and TailwindCSS.</p>
         </div>
 
         {/* About me picture */}

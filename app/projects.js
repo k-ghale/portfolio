@@ -8,6 +8,9 @@ const Projects = () => {
     <div className='
     w-[428px]
     lg:w-screen
+    lg:text-2xl
+    lg:font-bold
+    lg:pt-10
     h-screen
     text-xl
     bg-home
@@ -125,7 +128,7 @@ const Projects = () => {
 
     </div>
     <div className="lg:flex lg:justify-center lg:items-center lg:w-1/2 lg:text-center">
-      <p className="text-[16px] lg:relative lg:left-80 text-center lg:p-4 lg:text-2xl lg:flex lg:justify-center lg:items-center">Explore some of my recent projects below. Each project represents a unique challenge and showcases my skills as a developer.</p>
+      <p className="text-[16px] lg:relative lg:left-80 text-center lg:p-4 lg:text-2xl lg:flex lg:justify-center lg:items-center">Explore some of my recent projects above. Each project represents a unique challenge and showcases my skills as a developer.</p>
     </div>
     </div>
     </div>
