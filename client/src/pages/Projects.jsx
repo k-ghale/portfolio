@@ -16,9 +16,9 @@ function Projects() {
       link:"https://github.com/k-ghale/react-ecommerce-site"
     },
     {
-      title: "Project 3",
-      description: "A mobile app for fitness tracking.",
-      link:"https://github.com/k-ghale/fitness-tracker"
+      title: "Movie Meter",
+      description: "A Movie Review Web App.",
+      link:"https://github.com/k-ghale/movie-meter.git"
     },
   ];
 

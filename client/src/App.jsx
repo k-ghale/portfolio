@@ -6,7 +6,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Services from './pages/Services';
-import Signin from './pages/Signin';
+// import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route path="/" element={<home/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/signup" element={<Signup />} />
         {/* <Route path="/home" element={<Home />} /> */}
         <Route path="/about" element={<About/>} />
