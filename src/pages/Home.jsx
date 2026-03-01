@@ -25,7 +25,7 @@ const Home = () => {
             </div>
 
             <div>
-              <p className="text-[#4c90e9]">user @portfolio</p>
+              <p className="text-[#4c90e9]">kabinghale @portfolio</p>
 
               <p className="text-[#838cb0]">________________</p>
 
